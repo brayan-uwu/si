@@ -2,9 +2,9 @@ class Empleadoo {
     nombre_de_empleado;
     id;
     horarios;
-    constructor(n, i) {
-        this.nombre_de_empleado = n;
+    constructor(empleadoo, ids) {
+        this.nombre_de_empleado = empleadoo;
 
-        this.id = i;
+        this.id = ids;
     }
 }
